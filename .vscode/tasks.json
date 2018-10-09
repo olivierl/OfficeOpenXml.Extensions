@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/OfficeOpenXml.Extensions/OfficeOpenXml.Extensions.csproj"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+          "label": "test",
+          "command": "dotnet",
+          "type": "shell",
+          "args": [
+            "test",
+            "./tests/OfficeOpenXml.Extensions.Tests/OfficeOpenXml.Extensions.Tests.csproj"
+        ],
+          "group": {
+            "kind": "test",
+            "isDefault": true
+          }
+        }
+    ]
+}
