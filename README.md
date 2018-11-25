@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/capraibex/OpenSource/_apis/build/status/OfficeOpenXml.Extensions)](https://dev.azure.com/capraibex/OpenSource/_build/latest?definitionId=27)
+[![pipeline status](https://gitlab.com/olivierl/officeopenxml-extensions/badges/master/pipeline.svg)](https://gitlab.com/olivierl/officeopenxml-extensions/commits/master)
 
 # OfficeOpenXml.Extensions
 
